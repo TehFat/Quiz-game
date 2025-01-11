@@ -31,6 +31,26 @@ h1 {
     display: inline-block;
     padding-bottom: 5px;
 }
+#question-counter {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: bold;
+}
+#feedback-gif {
+    margin-top: 10px;
+    height: 100px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feedback-gif img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
 
 /* Question Section */
 #question {
